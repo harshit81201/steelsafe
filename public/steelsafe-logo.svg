@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 208 60" role="img" aria-labelledby="title">
+  <title id="title">SteelSafe</title>
+  <g transform="translate(0 1) scale(.76)">
+    <path fill="#102f55" d="M32 1 62 12v27c0 15-11 27-30 36C13 66 2 54 2 39V12Z"/>
+    <path fill="white" d="M29 31h6v21h10v5H19v-5h10z"/>
+    <path fill="#ff851c" d="M16 31a16 16 0 0 1 32 0z"/>
+    <rect x="13" y="29" width="38" height="4.7" rx="1.4" fill="#fc7a10"/>
+  </g>
+  <text x="56" y="38" fill="#102f55" font-family="Arial, sans-serif" font-size="37" font-weight="700" letter-spacing="-1.7">Steel<tspan fill="#d9640b">Safe</tspan></text>
+  <text x="58" y="51" fill="#33475c" font-family="Arial, sans-serif" font-size="8.5" letter-spacing=".45">Work Safe. Build Stronger.</text>
+</svg>
