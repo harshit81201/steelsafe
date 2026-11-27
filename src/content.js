@@ -17,21 +17,21 @@ export const companies = [
 export const areas = [
   {
     id: 'safety', icon: 'helmet', short: 'Occupational safety', title: 'Occupational Health & Safety',
-    alt: 'A hard hat, protective glasses and gloves on a steel workbench',
+    width: 598, height: 364, alt: 'Workers in hard hats beside a furnace on the steelworks floor',
     summary: 'Identify hazards early and make safe working practices part of every shift.',
     objective: 'Reduce exposure to hazards and help prevent injuries on the shop floor.',
     activities: ['Review risks around machinery, material handling, lifting, electrical work and working at height.', 'Make suitable protective equipment available and plan for its replacement.', 'Review machine guarding, access routes, housekeeping and safety signs.', 'Prepare for emergencies and follow up on incidents, near misses and unsafe conditions.']
   },
   {
     id: 'welfare', icon: 'people', short: 'Worker welfare', title: 'Labour Welfare & Worker Wellbeing',
-    alt: 'A steelworker taking a drinking-water break in a rest area',
+    width: 1280, height: 576, alt: 'Workers gathered in conversation at the entrance to a workshop',
     summary: 'Support worker dignity through everyday facilities, fair treatment and access to help.',
     objective: 'Make essential facilities and support easier for workers to access.',
     activities: ['Review drinking water, washing facilities, toilets and rest areas.', 'Consider meal arrangements and accommodation where the company provides them.', 'Promote access to first aid, health information and medical referrals.', 'Build awareness of employment conditions, benefits and grievance channels, and encourage respectful treatment.']
   },
   {
     id: 'training', icon: 'book', short: 'Training & awareness', title: 'Training & Awareness',
-    alt: 'A supervisor holding a toolbox talk with a group of steelworkers',
+    width: 1280, height: 576, alt: 'A man in a blue shirt addressing a group of hard-hatted workers',
     summary: 'Build confidence through site inductions, toolbox talks and task-specific learning.',
     objective: 'Help workers, contractors and supervisors recognise risks and understand safe practices.',
     activities: ['Introduce workers, contractors and visitors to site-specific risks.', 'Use toolbox talks and task-specific training to discuss work before it starts.', 'Refresh knowledge of PPE, safe lifting and emergency response.', 'Support supervisors in hazard recognition and use visual material and local languages where helpful.']

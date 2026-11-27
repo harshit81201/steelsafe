@@ -156,6 +156,11 @@ p { color: var(--muted); }
 .company-page h2 { font-size: 1.55rem; letter-spacing: -.035em; }
 .related { background: #eaf0ee; padding: 2rem; display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; margin-top: 2rem; }
 .related .button { flex: none; }
+.vision-photo { display: block; width: 100%; height: auto; margin-top: 1.5rem; border-radius: 8px; }
+.contact-details { margin-top: 1.2rem; font-style: normal; }
+.contact-details > div { display: flex; align-items: baseline; flex-wrap: wrap; gap: .3rem 1rem; }
+.contact-details span { min-width: 3.25rem; color: var(--muted); }
+.contact-details .text-link { margin: 0; font-size: 1rem; }
 .contact-panel > svg { color: var(--rust); margin-bottom: .8rem; }
 footer { background: #0c2234; color: #fff; padding-top: 2.5rem; }
 .footer-main, .footer-note { display: flex; justify-content: space-between; align-items: center; gap: 1.5rem; }

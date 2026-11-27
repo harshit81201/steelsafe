@@ -50,7 +50,7 @@ export function Footer() {
     <div className="footer-main"><div><strong className="footer-brand">Steel<span>Safe</span></strong><p>Labour Safety &amp; Welfare Initiative</p></div>
       <nav aria-label="Footer navigation">{Object.entries(pages).map(([url, [label]]) => <a href={url} key={url}>{label}</a>)}</nav>
     </div>
-    <div className="footer-note"><span>Work Safe. Build Stronger.</span><span>Industrial imagery is illustrative.</span></div>
+    <div className="footer-note"><span>Work Safe. Build Stronger.</span><span>Homepage banner is illustrative.</span></div>
   </div></footer>;
 }
 

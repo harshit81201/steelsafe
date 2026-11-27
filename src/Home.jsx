@@ -25,7 +25,7 @@ export default function Home() {
       <Eyebrow>Our initiatives</Eyebrow>
       <div className="section-heading"><h2>Where we focus</h2><a className="text-link" href="/initiatives/"><Icon name="grid" size={16}/>View all initiatives</a></div>
       <div className="focus-grid">{areas.map(area => <a className="focus-card" href={'/initiatives/#' + area.id} key={area.id}>
-        <div className="card-photo"><img src={'/images/' + area.id + '.webp'} alt={area.alt} width="720" height="724" loading="lazy"/><span className="icon-tile"><Icon name={area.icon} size={24}/></span></div>
+        <div className="card-photo"><img src={'/images/' + area.id + '.webp'} alt={area.alt} width={area.width} height={area.height} loading="lazy"/><span className="icon-tile"><Icon name={area.icon} size={24}/></span></div>
         <div className="card-content"><h3>{area.short}</h3><p>{area.summary}</p></div>
       </a>)}</div>
     </section>
